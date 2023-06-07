@@ -1,0 +1,15 @@
+.display-user{
+  height: 400px;
+  overflow:auto;
+}
+
+.display-user .user-items{
+  background-color: #dcdee3;
+  margin-bottom: 5px;
+  padding: 20px;
+  border-radius: 4px;
+  /*https://webaim.org/resources/contrastchecker/*/
+  color: rgb(24, 22, 22);
+  display: flex;
+  word-break: break-all;
+}
